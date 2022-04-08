@@ -2,7 +2,10 @@
 #include <time.h>
 #include<stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main- assigns random number to n
+ * prints whether number is negative, positive, or zero
+ * */
 int main(void)
 {
 	int n;
