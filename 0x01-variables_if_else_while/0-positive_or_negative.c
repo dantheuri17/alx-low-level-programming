@@ -5,7 +5,8 @@
 /**
  * main- assigns random number to n
  * prints whether number is negative, positive, or zero
- */
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
