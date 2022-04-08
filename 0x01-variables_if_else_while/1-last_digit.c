@@ -5,17 +5,17 @@
 /**
  * main - random number generated
  * finds whether last digit of number is < > or == to five
- * Returns(0)- Always Successful 
+ * Returns(0)- Always Successful
  */
 int main(void)
 {
 	int n;
 	int lastDigit;
 
-	srand(time(0));	
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	lastDigit = n%10;
+	lastDigit = n % 10;
 
 	if (lastDigit > 5)
 	{
@@ -27,7 +27,7 @@ int main(void)
 		printf("Last digit of %d is %d and is 0", n, lastDigit);
 	}
 
-	else 
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0", n, lastDigit);
 	}
