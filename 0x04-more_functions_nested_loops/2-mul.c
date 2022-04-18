@@ -5,7 +5,7 @@
  * @a: input number.
  * @b: input number
  * 
- * Return - Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int mul(int a, int b)
