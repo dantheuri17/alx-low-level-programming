@@ -2,17 +2,17 @@
 
 /**
  * swap_int - swaps values of two integers using pointers
- * @*a: point to address containing integer
- * @*b: pointer to address containing integer
+ * @a: point to address containing integer
+ * @b: pointer to address containing integer
  *
- * Return: void 
+ * Return: void
  */
 
 void swap_int(int *a, int *b)
 {
-	int hold; 
+	int hold;
 
-	*a = hold; 
+	*a = hold;
 	*a = *b;
-	*b = hold; 
+	*b = hold;
 }
