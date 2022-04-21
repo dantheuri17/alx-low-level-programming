@@ -2,15 +2,15 @@
 
 /**
  * puts2 - prints every other character of string
- * @str: string 
+ * @str: string
  *
  * Return: void
  */
 
 void puts2(char *str)
 {
-	int i = 0; 
-	int c = 0; 
+	int i = 0;
+	int c = 0;
 
 	while (str[c] != '\0')
 	{
