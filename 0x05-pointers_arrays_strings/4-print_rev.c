@@ -1,8 +1,8 @@
 #include "main.h"
 
-/** 
+/**
  * print_rev - print string in revers
- * @s: string 
+ * @s: string
  *
  * Return: void
  */
@@ -15,8 +15,8 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-	
-	while (c > 0)
+	c--;
+	while (c >= 0)
 	{
 		_putchar(s[c]);
 		c--;
