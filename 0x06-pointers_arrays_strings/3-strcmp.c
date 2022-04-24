@@ -25,14 +25,14 @@ int _strcmp(char *s1, char *s2)
 
 	while (c <= s)
 	{
-		if (s1len[c] == s2len[c])
+		if (s1[c] == s2[c])
 		{
 			c++;
 			continue;
 		}
 		else
 		{
-			r = s1len[c] - s2[c];
+			r = s1[c] - s2[c];
 			break;
 		}
 		c++;
