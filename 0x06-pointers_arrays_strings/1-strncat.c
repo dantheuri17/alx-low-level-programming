@@ -1,17 +1,17 @@
 #include "main.h"
 
-/** 
- * _strncat - concatenate 2 strings with certain number of 
+/**
+ * _strncat - concatenate 2 strings with certain number of
  * @src: string concatenating
  * @dest: string being concatenated
- * @n: number of values 
+ * @n: number of values
  *
  * Return: string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int dlen = 0, i; 
+	int dlen = 0, i;
 
 	while (dest[dlen])
 	{
