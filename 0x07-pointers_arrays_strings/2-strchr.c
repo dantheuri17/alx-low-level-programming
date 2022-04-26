@@ -19,13 +19,10 @@ char *_strchr(char *s, char c)
 	while (s[i])
 	{
 		if (s[i] == c)
-		{ 
-			x = i;
-			while (s[x])
-			{
-				str[x] = s[x];
-				x++;
-			}
+		{
+			str = s[i];
+
+		}
 			return (str);
 
 		}
