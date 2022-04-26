@@ -1,4 +1,4 @@
-i#include "mainn.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
