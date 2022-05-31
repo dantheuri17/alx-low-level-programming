@@ -24,10 +24,10 @@ int _strlen(const char *s)
 
 unsigned int binary_to_uint(const char *b)
 {
+	int slen = _strlen(b), total = 0, decval = 1, i;
+
 	if (!b)
 		return (0);
-	
-	int slen = _strlen(b), total = 0, decval = 1, i; 
 
 	for (i = (slen - 1); i >= 0; i--)
 	{
@@ -37,5 +37,3 @@ unsigned int binary_to_uint(const char *b)
 
 	return (total);
 }
-
-
