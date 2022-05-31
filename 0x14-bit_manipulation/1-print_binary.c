@@ -2,8 +2,8 @@
 
 /**
  * print_binary - change integer into binary
- * @n: integer 
- * Return: nothing 
+ * @n: integer
+ * Return: nothing
  */
 
 void print_binary(unsigned long int n)
@@ -16,7 +16,7 @@ void print_binary(unsigned long int n)
 
 		if (n & mask)
 			_putchar('1');
-		else 
+		else
 			_putchar('0');
 	}
 }
