@@ -1,6 +1,6 @@
 #creating variables
-NAME=holberton
-SRC=main.c holberton.c
+NAME=school
+SRC=main.c school.c
 CC=gcc
 CFLAGS=-Wall -Werror -Wextra -pedantic
 OBJ=$(SRC:.c=.o)

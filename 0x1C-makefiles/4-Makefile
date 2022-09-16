@@ -1,10 +1,10 @@
 #setting variables
-NAME=holberton
+NAME=school
 CC=gcc
 RM=rm -f
 OBJ=$(SRC:.c=.o)
 CFLAGS=-Wall -Werror -Wextra -pedantic
-SRC=main.c holberton.c
+SRC=main.c school.c
 
 #creating the rules
 all: $(OBJ)

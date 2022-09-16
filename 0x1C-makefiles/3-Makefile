@@ -1,7 +1,7 @@
 #setting variables
-NAME=holberton
+NAME=school
 CC=gcc
-SRC=main.c holberton.c
+SRC=main.c school.c
 RM=rm -f
 OBJ=$(SRC:.c=.o)
 
